@@ -12,7 +12,7 @@
     </div>
 
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-      <div class="text-sm lg:flex-grow mx-16">
+      <div class="text-sm lg:flex-grow">
         <router-link
           to="/"
           class="block mt-4 lg:inline-block lg:mt-0 text-gray-500 hover:text-black active:text-black mr-4"
@@ -122,14 +122,14 @@
           Блог
         </a>
       </div>
-      <div>
-        <button
-          href="#"
-          class="enterbtn inline-block text-sm px-6 py-2.5 leading-none border rounded-lg text-white border-white hover:border-transparent hover:text-black active:text-black-500 mt-4 mr-20 ml-20 lg:mt-0"
-        >
-          Войти
-        </button>
-      </div>
+    </div>
+    <div>
+      <button
+        href="#"
+        class="enterbtn inline-block text-sm px-6 py-2.5 leading-none border rounded-lg text-white border-white hover:border-transparent hover:text-black active:text-black-500 mt-4 mr-20 ml-20 lg:mt-0"
+      >
+        Войти
+      </button>
     </div>
   </nav>
 </template>
