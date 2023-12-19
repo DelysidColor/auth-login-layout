@@ -1,9 +1,11 @@
 <template>
-  <NavBar />
+  <div class="max-w-[1440px] flex flex-col">
+    <NavBar />
 
-  <RouterView />
+    <RouterView />
 
-  <Footer />
+    <Footer />
+  </div>
 </template>
 
 <script>
